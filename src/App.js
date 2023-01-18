@@ -1,4 +1,4 @@
-import React, { useMemo } from "react";
+import React, { useEffect } from "react";
 import {
   Row,
   Col,
@@ -79,6 +79,11 @@ const bsBeginnings = [
 ];
 
 function App() {
+
+  useEffect(() => {
+    document.title = "BurgerScopes";
+  }, []);
+
   function getVerdict(desc) {
     let chaoticLawful = 0;
     let evilGood = 0;
