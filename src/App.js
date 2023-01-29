@@ -76,6 +76,7 @@ const bsBeginnings = [
   "I sense you will have a ",
   "I see it in the beef. It will be a ",
   "The meat foretells of a ",
+  "The buns contain your future. It will be a ",
 ];
 
 function App() {
