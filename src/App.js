@@ -23,6 +23,21 @@ const chaoticList = [
   "queso",
   "taco",
   "garlic",
+  "fries",
+  "burrito",
+  "smothered",
+  "hash", //hashbrowns 
+  "pancake",
+  "cinnamon",
+  "strawberry",
+  "syrup",
+  "cajun",
+  "curds",
+  "guac",
+  "jalape", //jalapenos but they use n-tilde so jalape instead
+  "tortilla",
+  "sticks", //Mozarella sticks
+
 ];
 
 const lawfulList = [
@@ -36,13 +51,17 @@ const lawfulList = [
   "burg",
   "cheddar",
   "pickle",
+  "bacon",
+  "mayo",
+  "mustard",
+  "lawful",
 ];
 
 const evilList = [
   "dog",
   "dog",
   "corn",
-  "ranch",
+  //"ranch", ranch is good (midwest)
   "bbq",
   "italian",
   "pastry",
@@ -50,6 +69,18 @@ const evilList = [
   "pickled",
   "deep",
   "fried",
+  "quadruple", //Quadruple is chaotic + evil. NOTHING needs 4.
+  "butter", //Same as fried
+  "flat", //Flatbread but anything flat probably evil
+  "buttermilk",
+  "weiners", 
+  "sauerkraut",
+  "pizza",
+  "provel", //Evil midwest
+  "pepperoni",
+  "belly", //Pork belly. Up for debate imo.
+  "fat", //bacon fat
+
 ];
 
 const goodList = [
@@ -61,13 +92,25 @@ const goodList = [
   "grilled",
   "onion",
   "bun",
+  "sausage",
+  "bell pappers",
+  "chicken",
+  "potato bun", //potato bun is good lawful, regular bun just lawful
+  "honey",
+  "swiss",
+  "sourdough",
+  "cojita",
+  "avocado",
+  "ranch", //midwest <3
+  "garlic",
+
 ];
 
 const chaoticWords = ["overwhelming", "busy", "noisy", "fast-paced"];
 
 const lawfulWords = ["relaxing", "calm", "easygoing", "mild"];
 
-const evilWords = ["painful", "meaningless", "worthless", "horrible"];
+const evilWords = ["painful", "meaningless", "worthless", "horrible", "dangerous"];
 
 const goodWords = ["fulfilling", "accomplishing", "rewarding", "empowering"];
 
